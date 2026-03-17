@@ -60,8 +60,3 @@ class DateParser: DateFormatting {
         return hourFormatter.string(from: date)
     }
 }
-
-// Shared instance for app-wide use
-extension DateParser {
-    static let shared = DateParser()
-}
