@@ -18,7 +18,7 @@ class DateParserTests: XCTestCase {
         super.setUp()
         // Use a fixed calendar and UTC timezone for consistent tests
         utcTimeZone = TimeZone(secondsFromGMT: 0) ?? .current
-        fixedCalendar = .current
+        fixedCalendar = Calendar(identifier: .gregorian)
         fixedCalendar.timeZone = utcTimeZone
         sut = DateParser(calendar: fixedCalendar, timeZone: utcTimeZone)
     }
