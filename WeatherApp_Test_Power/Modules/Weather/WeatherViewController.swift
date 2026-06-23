@@ -36,16 +36,6 @@ final class WeatherViewController: UIViewController {
         fatalError()
     }
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        setupUI()
-        addSubviews()
-        setupConstraints()
-        setActions()
-        setupGradient()
-        presenter.viewDidLoad()
-    }
-
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         gradientLayer.frame = view.bounds
@@ -285,5 +275,17 @@ private extension WeatherViewController {
             forCellReuseIdentifier: DayCell.reuseId
         )
         return table
+    }
+}
+
+extension WeatherViewController {
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        setupUI()
+        addSubviews()
+        setupConstraints()
+        setActions()
+        setupGradient()
+        presenter.viewDidLoad()
     }
 }
