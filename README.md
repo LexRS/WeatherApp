@@ -8,20 +8,20 @@ This weather app was developed as a test task, showcasing clean UIKit implementa
 
 ## ✨ Features
 
-Dynamic Gradients - Apple-style gradient backgrounds that shift based on the time of day
-MVP Architecture - Clean separation of concerns for maintainable code
-Service Locator - Self written DI container
-UIKit Native - Pure UIKit implementation without third-party UI dependencies
-Weather Data - Real-time weather information display
-Responsive Design - Adapts beautifully across all iOS devices
+Dynamic Gradients - Apple-style gradient backgrounds that shift based on the time of day  
+MVP Architecture - Clean separation of concerns for maintainable code  
+Service Locator - Self written DI container  
+UIKit Native - Pure UIKit implementation without third-party UI dependencies  
+Weather Data - Real-time weather information display  
+Responsive Design - Adapts beautifully across all iOS devices  
 
 ## 🎨 UI Highlights
 
-Morning - Warm golden gradients with soft blues ☀️
-Afternoon - Bright and vibrant sky tones 🌞
-Evening - Rich oranges and purples 🌅
-Night - Deep navy and starry gradients 🌙
-Each background is carefully crafted to provide an immersive experience that reflects the current time of day.
+Morning - Warm golden gradients with soft blues ☀️  
+Afternoon - Bright and vibrant sky tones 🌞  
+Evening - Rich oranges and purples 🌅  
+Night - Deep navy and starry gradients 🌙  
+Each background is carefully crafted to provide an immersive experience that reflects the current time of day.  
 
 ## Screenshots
 
