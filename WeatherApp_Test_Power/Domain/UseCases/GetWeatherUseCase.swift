@@ -49,6 +49,6 @@ final class GetWeatherUseCase: GetWeatherUseCaseProtocol {
         )
         
         let isDaytime = locationService.isDaytime(for: location)
-        return weatherMapper.mapToModel(entity: weatherEntity, isDaytime: false)
+        return weatherMapper.mapToModel(entity: weatherEntity, isDaytime: isDaytime)
     }
 }

@@ -30,7 +30,7 @@ final class AppCoordinator: Coordinator {
 private extension AppCoordinator {
     func setRootViewController() {
         let weatherUseCase = dependencies.getWeatherUseCase()
-        let module = WeatherModuleBuilder.build(with: weatherUseCase)
+        let module = WeatherModuleFactory.build(with: weatherUseCase)
         navigationController.setViewControllers(
             [module],
             animated: false

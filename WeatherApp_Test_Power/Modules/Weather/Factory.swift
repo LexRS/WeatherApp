@@ -7,7 +7,7 @@
 
 import UIKit
 
-final class WeatherModuleBuilder {
+final class WeatherModuleFactory {
     static func build(with useCase: GetWeatherUseCaseProtocol) -> UIViewController {
         let presenter = WeatherPresenter(useCase: useCase)
         let viewController = WeatherViewController(presenter: presenter)
